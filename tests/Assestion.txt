@@ -1,0 +1,15 @@
+Playwright includes test assestions in the form of expect function.
+
+1. expect{page}.toHaveURL()
+2.expect{page}.toHaveTitle()
+3.expect{page}.tobevisible()
+4.expect(locator).toBeEnabled()
+5.expect(locator).toBedisabled()
+6.expect (locator).toBeChecked()
+7.expect(locator).toHaveAttribute()
+8.expect(locator).toHaveText()
+9.expect(locator).toContainText()
+10. expect(locator).toHaveValue(value)
+expect(locator).toHaveCount() List of elements has given length
+
+//Hard vs Soft
